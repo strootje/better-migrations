@@ -3,10 +3,10 @@
   "exports": {
     "./better-auth": "./better-auth.ts"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
 
   "imports": {
-    "@strootje/better-kysely": "jsr:@strootje/better-kysely@^0.3.2",
+    "@strootje/better-kysely": "jsr:@strootje/better-kysely@^0.3.3",
     "kysely": "npm:kysely@^0.27.6"
   },
 

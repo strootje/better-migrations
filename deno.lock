@@ -2,15 +2,15 @@
   "version": "5",
   "specifiers": {
     "jsr:@std/semver@^1.0.5": "1.0.5",
-    "jsr:@strootje/better-kysely@~0.3.2": "0.3.2",
+    "jsr:@strootje/better-kysely@~0.3.3": "0.3.3",
     "npm:kysely@~0.27.6": "0.27.6"
   },
   "jsr": {
     "@std/semver@1.0.5": {
       "integrity": "529f79e83705714c105ad0ba55bec0f9da0f24d2f726b6cc1c15e505cc2c0624"
     },
-    "@strootje/better-kysely@0.3.2": {
-      "integrity": "efed730a1965b4a46335101e196162284d18843c1d574f5697c9000495f1e914",
+    "@strootje/better-kysely@0.3.3": {
+      "integrity": "0bef963c0b07beb3af579c5773fcbc9f39b73a7bbc23361a08c326e70446d5d8",
       "dependencies": [
         "jsr:@std/semver",
         "npm:kysely"
@@ -24,7 +24,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@strootje/better-kysely@~0.3.2",
+      "jsr:@strootje/better-kysely@~0.3.3",
       "npm:kysely@~0.27.6"
     ]
   }
