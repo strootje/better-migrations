@@ -1,0 +1,19 @@
+{
+  "name": "@strootje/better-migrations",
+  "exports": {
+    "./better-auth": "./better-auth.ts"
+  },
+  "version": "0.1.0",
+
+  "imports": {
+    "@strootje/better-kysely": "jsr:@strootje/better-kysely@^0.3.2"
+  },
+
+  "fmt": {
+    "lineWidth": 120
+  },
+
+  "test": {
+    "include": ["*.tests.ts"]
+  }
+}
