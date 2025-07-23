@@ -1,6 +1,7 @@
 import * as utils from "@strootje/better-kysely/migrations";
+import type { Migration } from "kysely";
 
-export const betterAuth = utils.build({
+export const betterAuth: (...plugins: Array<"admin" | "passkey">) => Record<string, Migration> = utils.build({
   core: {
     better_auth_1_2_9_core: {
       version: "1.2.9",

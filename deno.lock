@@ -24,7 +24,8 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@strootje/better-kysely@~0.3.2"
+      "jsr:@strootje/better-kysely@~0.3.2",
+      "npm:kysely@~0.27.6"
     ]
   }
 }
